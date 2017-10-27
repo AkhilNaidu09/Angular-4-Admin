@@ -25,7 +25,7 @@ export const routes: Routes = [
         loadChildren: './dashboard/dashboard.module#DashboardModule'
       },
       {
-        path: 'components',
+        path: 'clients',
         loadChildren: './views/components/components.module#ComponentsModule'
       },
       {
