@@ -21,6 +21,7 @@ import { TabsComponent } from './tabs.component';
 
 // Components Routing
 import { ComponentsRoutingModule } from './components-routing.module';
+import { ClientsComponent } from 'app/views/components/clients.component';
 
 @NgModule({
   imports: [
@@ -30,6 +31,7 @@ import { ComponentsRoutingModule } from './components-routing.module';
     TabsModule
   ],
   declarations: [
+    ClientsComponent,
     ButtonsComponent,
     CardsComponent,
     FormsComponent,

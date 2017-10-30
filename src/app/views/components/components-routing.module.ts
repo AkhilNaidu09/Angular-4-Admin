@@ -9,19 +9,27 @@ import { SocialButtonsComponent } from './social-buttons.component';
 import { SwitchesComponent } from './switches.component';
 import { TablesComponent } from './tables.component';
 import { TabsComponent } from './tabs.component';
+import { ClientsComponent } from 'app/views/components/clients.component';
 
 const routes: Routes = [
   {
     path: '',
     data: {
-      title: 'Components'
+      title: 'Clients'
     },
     children: [
+      {
+        path: '',
+        component: ClientsComponent,
+        data: {
+          title: 'Details'
+        }
+      },
       {
         path: 'buttons',
         component: ButtonsComponent,
         data: {
-          title: 'Buttons'
+          title: 'Associations'
         }
       },
       {
