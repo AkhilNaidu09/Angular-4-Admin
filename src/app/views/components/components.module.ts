@@ -22,9 +22,10 @@ import { TabsComponent } from './tabs.component';
 // Components Routing
 import { ComponentsRoutingModule } from './components-routing.module';
 import { ClientsComponent } from 'app/views/components/clients.component';
-
+import { Ng2SmartTableModule } from 'ng2-smart-table';
 @NgModule({
   imports: [
+    Ng2SmartTableModule,
     ComponentsRoutingModule,
     BsDropdownModule.forRoot(),
     ModalModule.forRoot(),
