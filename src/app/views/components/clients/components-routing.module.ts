@@ -1,15 +1,16 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { ButtonsComponent } from './buttons.component';
-import { CardsComponent } from './cards.component';
-import { FormsComponent } from './forms.component';
-import { ModalsComponent } from './modals.component';
-import { SocialButtonsComponent } from './social-buttons.component';
-import { SwitchesComponent } from './switches.component';
-import { TablesComponent } from './tables.component';
-import { TabsComponent } from './tabs.component';
-import { ClientsComponent } from 'app/views/components/clients.component';
+
+import { FormsComponent } from 'app/views/components/forms.component';
+import { ModalsComponent } from 'app/views/components/modals.component';
+import { SocialButtonsComponent } from 'app/views/components/social-buttons.component';
+import { SwitchesComponent } from 'app/views/components/switches.component';
+import { TablesComponent } from 'app/views/components/tables.component';
+import { TabsComponent } from 'app/views/components/tabs.component';
+import { ClientsComponent } from 'app/views/components/clients/clients.component';
+import { ButtonsComponent } from 'app/views/components/buttons.component';
+import { CardsComponent } from 'app/views/components/cards.component';
 
 const routes: Routes = [
   {

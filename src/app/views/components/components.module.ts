@@ -20,8 +20,8 @@ import { TabsModule } from 'ngx-bootstrap/tabs';
 import { TabsComponent } from './tabs.component';
 
 // Components Routing
-import { ComponentsRoutingModule } from './components-routing.module';
-import { ClientsComponent } from 'app/views/components/clients.component';
+import { ComponentsRoutingModule } from './clients/components-routing.module';
+import { ClientsComponent } from 'app/views/components/clients/clients.component';
 import { Ng2SmartTableModule } from 'ng2-smart-table';
 @NgModule({
   imports: [

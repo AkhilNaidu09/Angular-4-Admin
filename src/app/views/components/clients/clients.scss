@@ -28,3 +28,40 @@
   box-shadow: 1px 1px 1px 1px grey;
   border-radius: 2px
 }
+
+.tiles {
+  height: 70px;
+  margin: auto;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.detailsSection {
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+  cursor: pointer;
+  background-color: #3d566d;
+  height: 25px;
+  margin-left: 0px;
+  width: 100%;
+  p {
+    margin-left: 5px;
+    font-weight: 600;
+  }
+}
+
+.card {
+  box-shadow: 1px 1px 1px 1px grey;
+  border-radius: 2px;
+  border: 0;
+}
+
+.elipsis {
+  h5 {
+    width: 150px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  padding-left:4px;
+}
