@@ -23,13 +23,15 @@ import { TabsComponent } from './tabs.component';
 import { ComponentsRoutingModule } from './clients/components-routing.module';
 import { ClientsComponent } from 'app/views/components/clients/clients.component';
 import { Ng2SmartTableModule } from 'ng2-smart-table';
+import { HttpClientModule } from '@angular/common/http';
 @NgModule({
   imports: [
     Ng2SmartTableModule,
     ComponentsRoutingModule,
     BsDropdownModule.forRoot(),
     ModalModule.forRoot(),
-    TabsModule
+    TabsModule,
+    HttpClientModule
   ],
   declarations: [
     ClientsComponent,
