@@ -69,17 +69,10 @@ const routes: Routes = [
         }
       },
       {
-        path: 'tables',
-        component: TablesComponent,
-        data: {
-          title: 'Tables'
-        }
-      },
-      {
-        path: 'tabs',
+        path: 'individual-details',
         component: TabsComponent,
         data: {
-          title: 'Tabs'
+          title: 'Individual Details'
         }
       }
     ]

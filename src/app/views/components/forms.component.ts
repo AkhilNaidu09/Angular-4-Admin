@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { LocalDataSource } from 'ng2-smart-table';
 import { HttpClient } from '@angular/common/http';
+import { Router } from '@angular/router';
 
 @Component({
   templateUrl: 'forms.component.html'
@@ -10,9 +11,13 @@ export class FormsComponent implements OnInit {
 
   source: LocalDataSource;
 
-  constructor(private http: HttpClient) {
+  constructor(private http: HttpClient, private router: Router) {
 
   }
+
+  getUserDetails() {
+    this.router.navigate(['clients/individual-details']);
+  };
 
   ngOnInit() {
     this.http.get('assets/data/individuals.json').subscribe((data: any[]) => {
@@ -25,6 +30,9 @@ export class FormsComponent implements OnInit {
           position: 'right'
         },
         columns: {
+          identitynumber: {
+            title: 'Identity Number'
+          },
           surname: {
             title: 'Surname',
           },
@@ -33,9 +41,6 @@ export class FormsComponent implements OnInit {
           },
           title: {
             title: 'Title',
-          },
-          identitynumber: {
-            title: 'Identity Number',
           },
           segment: {
             title: 'Segment',
