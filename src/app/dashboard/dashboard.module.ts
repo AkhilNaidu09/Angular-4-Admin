@@ -4,6 +4,7 @@ import { BsDropdownModule } from 'ngx-bootstrap/dropdown';
 
 import { DashboardComponent } from './dashboard.component';
 import { DashboardRoutingModule } from './dashboard-routing.module';
+import { ChartJSComponent } from 'app/views/chartjs/chartjs.component';
 
 @NgModule({
   imports: [
@@ -11,6 +12,6 @@ import { DashboardRoutingModule } from './dashboard-routing.module';
     ChartsModule,
     BsDropdownModule
   ],
-  declarations: [DashboardComponent]
+  declarations: [DashboardComponent, ChartJSComponent]
 })
 export class DashboardModule { }

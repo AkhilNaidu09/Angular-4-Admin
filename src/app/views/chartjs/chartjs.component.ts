@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
+  selector:'charts-app',
   templateUrl: 'chartjs.component.html'
 })
 export class ChartJSComponent {
