@@ -27,45 +27,45 @@ const routes: Routes = [
         }
       },
       {
-        path: 'buttons',
+        path: 'associations',
         component: ButtonsComponent,
         data: {
           title: 'Associations'
         }
       },
       {
-        path: 'cards',
+        path: 'deceased-estates',
         component: CardsComponent,
         data: {
-          title: 'Cards'
+          title: 'Deceased Estates'
         }
       },
       {
-        path: 'forms',
+        path: 'individuals',
         component: FormsComponent,
         data: {
-          title: 'Forms'
+          title: 'Individuals'
         }
       },
       {
-        path: 'modals',
+        path: 'leagal-entities',
         component: ModalsComponent,
         data: {
-          title: 'Modals'
+          title: 'Leagal Entities'
         }
       },
       {
-        path: 'social-buttons',
+        path: 'curatorships',
         component: SocialButtonsComponent,
         data: {
-          title: 'Social buttons'
+          title: 'Curatorships'
         }
       },
       {
-        path: 'switches',
+        path: 'trusts',
         component: SwitchesComponent,
         data: {
-          title: 'Switches'
+          title: 'Trusts'
         }
       },
       {

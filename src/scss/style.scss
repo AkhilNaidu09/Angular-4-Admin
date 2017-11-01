@@ -1,3 +1,37 @@
+
+.myTable /deep/ ng2-smart-table table {
+    border: 1px solid #d5d7d8 !important;
+  }
+  
+  .myTable /deep/ ng2-smart-table tr {
+    border: 1px solid #d5d7d8 !important;
+  }
+  
+  .myTable /deep/ ng2-smart-table tr:hover {
+    background: rgba(0, 0, 0, .05);
+  }
+  
+  .myTable /deep/ a.ng2-smart-page-link.page-link.page-link-prev,
+  .myTable /deep/ a.ng2-smart-page-link.page-link.page-link-next {
+    font-size: inherit !important;
+  }
+  
+  * /deep/ nav.ng2-smart-pagination-nav {
+    padding-top: 1em;
+  }
+  
+  * /deep/ nav.ng2-smart-pagination-nav {
+    margin: auto;
+  }
+  
+  .myTable {
+    background-color: white;
+    box-shadow: 1px 1px 1px 1px grey;
+    border-radius: 2px;
+    padding: 5px !important;
+  }
+
+
 /**
  * CoreUI - Open Source Bootstrap Admin Template
  * @version v1.0.0-alpha.6

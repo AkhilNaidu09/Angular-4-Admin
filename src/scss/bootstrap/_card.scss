@@ -14,6 +14,14 @@
   @include border-radius($card-border-radius);
 }
 
+.bg-third {
+  background-color:#0f4367 !important;
+}
+
+.bg-fourth {
+  background-color: #2b176b !important;
+}
+
 .card-body {
   // Enable `flex-grow: 1` for decks and groups so that card blocks take up
   // as much space as possible, ensuring footers are aligned to the bottom.

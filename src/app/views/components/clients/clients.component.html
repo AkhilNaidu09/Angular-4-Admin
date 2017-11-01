@@ -1,6 +1,3 @@
-<!-- <div class="myTable " style="padding:5px">
-  <ng2-smart-table [settings]="settings" [source]="source"></ng2-smart-table>
-</div> -->
 <div class="animated fadeIn">
   <div class="row">
     <div class="col-sm-4 col-md-4 col-lg-2 col-xl-2">
@@ -11,7 +8,7 @@
         <div class="fa fa-building px-3 fa-4x tiles">
 
         </div>
-        <div class="row detailsSection justify-content-between" [routerLink]="['/clients']">
+        <div class="row detailsSection justify-content-between" [routerLink]="['/clients/associations']">
           <div>
             <p>Details</p>
           </div>
@@ -29,7 +26,7 @@
         </div>
         <div class=" fa fa-archive fa-4x px-3 tiles">
         </div>
-        <div class="row detailsSection justify-content-between">
+        <div class="row detailsSection justify-content-between" [routerLink]="['/clients/curatorships']">
           <div>
             <p>Details</p>
           </div>
@@ -47,7 +44,7 @@
         </div>
         <div class="fa icon-puzzle fa-4x px-3 tiles">
         </div>
-        <div class="row detailsSection justify-content-between">
+        <div class="row detailsSection justify-content-between" [routerLink]="['/clients/deceased-estates']">
           <div>
             <p>Details</p>
           </div>
@@ -65,7 +62,7 @@
         </div>
         <div class="fa fa-user-circle-o fa-4x px-3 tiles">
         </div>
-        <div class="row detailsSection justify-content-between">
+        <div class="row detailsSection justify-content-between" [routerLink]="['/clients/individuals']">
           <div>
             <p>Details</p>
           </div>
@@ -77,13 +74,13 @@
     </div>
 
     <div class="col-sm-4 col-md-4 col-lg-2 col-xl-2 ">
-      <div class="card text-white bg-danger ">
+      <div class="card text-white bg-fourth ">
         <div class="card-body pb-0 elipsis " style="text-align:center">
           <h5 class="mb-0 ">Leagal Entities</h5>
         </div>
         <div class="fa fa-pencil-square-o fa-4x px-3 tiles">
         </div>
-        <div class="row detailsSection justify-content-between">
+        <div class="row detailsSection justify-content-between" [routerLink]="['/clients/leagal-entities']">
           <div>
             <p>Details</p>
           </div>
@@ -95,13 +92,13 @@
     </div>
 
     <div class="col-sm-4 col-md-4 col-lg-2 col-xl-2 ">
-      <div class="card text-white bg-danger ">
+      <div class="card text-white bg-third ">
         <div class="card-body pb-0 elipsis" style="text-align:center">
           <h5 class="mb-0 ">Trusts</h5>
         </div>
         <div class="fa fa-university fa-4x px-3 tiles">
         </div>
-        <div class="row detailsSection justify-content-between">
+        <div class="row detailsSection justify-content-between" [routerLink]="['/clients/trusts']">
           <div>
             <p>Details</p>
           </div>
