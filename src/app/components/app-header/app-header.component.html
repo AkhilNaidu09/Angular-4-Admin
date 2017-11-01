@@ -1,6 +1,6 @@
 <header class="app-header navbar">
   <button class="navbar-toggler d-lg-none" type="button" appMobileSidebarToggler>&#9776;</button>
-  <!-- <a class="navbar-brand" href="#"></a> -->
+  <a class="navbar-brand" href="#"></a>
   <button class="navbar-toggler d-md-down-none" type="button" appSidebarToggler>&#9776;</button>
   <!-- <ul class="nav navbar-nav d-md-down-none">
     <li class="nav-item px-3">
@@ -47,8 +47,8 @@
         <div class="divider"></div>
         <a class="dropdown-item" href="#">
           <i class="fa fa-shield"></i> Lock account</a>
-        <a class="dropdown-item" href="#">
-          <i class="fa fa-lock"></i> Logout</a>
+        <a class="dropdown-item" href="#" [routerLink]="['/pages/login']">
+          <i class="fa fa-lock" ></i> Logout</a>
       </div>
     </li>
     <!-- <button class="navbar-toggler d-md-down-none" type="button" appAsideMenuToggler>&#9776;</button> -->

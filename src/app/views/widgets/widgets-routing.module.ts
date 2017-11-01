@@ -8,7 +8,7 @@ const routes: Routes = [
     path: '',
     component: WidgetsComponent,
     data: {
-      title: 'Widgets'
+      title: 'Documents'
     }
   }
 ];
@@ -17,4 +17,4 @@ const routes: Routes = [
   imports: [RouterModule.forChild(routes)],
   exports: [RouterModule]
 })
-export class WidgetsRoutingModule {}
+export class WidgetsRoutingModule { }

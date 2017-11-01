@@ -1,0 +1,32 @@
+
+.custom-sidebar li{
+    box-shadow: 0px 1px 3px -1px grey;
+    padding: 0;
+    min-width: 100%;
+  }
+  .custom-sidebar{
+    background: white;
+    a.nav-link{
+      color:black;
+    }
+  }
+  
+  a.nav-link.nav-dropdown-toggle::before {
+    transform: rotate(180deg);
+  }
+  
+  .custom-sidebar {
+    position: absolute;
+    padding: 0;
+    background: white;
+    min-height: 97%;
+    margin-bottom: 1.5rem;
+    box-shadow: 1px 1px 2px 1px grey;
+  }
+  .custom-sidebar .nav .nav-item .nav-link:hover{
+    color: #000 !important;
+    background: #edf3f3 !important;
+    cursor: pointer;
+  
+  }
+  

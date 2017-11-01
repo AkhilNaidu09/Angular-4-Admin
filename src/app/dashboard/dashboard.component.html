@@ -43,7 +43,7 @@
         </div>
         <div class="fa fa-file-text-o fa-4x px-3 tiles">
         </div>
-        <div class="row detailsSection justify-content-between">
+        <div class="row detailsSection justify-content-between" [routerLink]="['/documents']">
           <div>
             <p>Details</p>
           </div>
@@ -63,7 +63,7 @@
           <canvas baseChart class="chart " [datasets]="barChart1Data " [labels]="barChart1Labels " [options]="barChart1Options
           " [colors]="barChart1Colours " [legend]="barChart1Legend " [chartType]="barChart1Type "></canvas>
         </div>
-        <div class="row detailsSection justify-content-between">
+        <div class="row detailsSection justify-content-between" [routerLink]="['/charts']">
           <div>
             <p>Details</p>
           </div>

@@ -63,10 +63,10 @@ export class SidebarOffCanvasCloseDirective {
 
   // Toggle element class
   private toggleClass(elem: any, elementClassName: string) {
-    let newClass = ' ' + elem.className.replace( /[\t\r\n]/g, ' ' ) + ' ';
+    let newClass = ' ' + elem.className.replace(/[\t\r\n]/g, ' ') + ' ';
     if (this.hasClass(elem, elementClassName)) {
-      while (newClass.indexOf(' ' + elementClassName + ' ') >= 0 ) {
-        newClass = newClass.replace( ' ' + elementClassName + ' ' , ' ' );
+      while (newClass.indexOf(' ' + elementClassName + ' ') >= 0) {
+        newClass = newClass.replace(' ' + elementClassName + ' ', ' ');
       }
       elem.className = newClass.replace(/^\s+|\s+$/g, '');
     } else {
@@ -85,8 +85,8 @@ export class SidebarOffCanvasCloseDirective {
 }
 
 export const SIDEBAR_TOGGLE_DIRECTIVES = [
-    SidebarToggleDirective,
-    SidebarMinimizeDirective,
-    SidebarOffCanvasCloseDirective,
-    MobileSidebarToggleDirective
+  SidebarToggleDirective,
+  SidebarMinimizeDirective,
+  SidebarOffCanvasCloseDirective,
+  MobileSidebarToggleDirective
 ];

@@ -19,5 +19,5 @@ export class AppHeader {
   //   this.status.isopen = !this.status.isopen;
   // }
 
-  ngOnInit(): void {}
+  ngOnInit(): void { }
 }

@@ -4,7 +4,8 @@ import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 
 @Component({
-  templateUrl: 'forms.component.html'
+  templateUrl: 'forms.component.html',
+  styleUrls:['./forms.scss']
 })
 export class FormsComponent implements OnInit {
   settings: any;

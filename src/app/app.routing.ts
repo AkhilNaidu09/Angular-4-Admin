@@ -33,7 +33,7 @@ export const routes: Routes = [
         loadChildren: './views/icons/icons.module#IconsModule'
       },
       {
-        path: 'widgets',
+        path: 'documents',
         loadChildren: './views/widgets/widgets.module#WidgetsModule'
       },
       {
