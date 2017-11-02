@@ -29,8 +29,8 @@ export const routes: Routes = [
         loadChildren: './views/components/components.module#ComponentsModule'
       },
       {
-        path: 'icons',
-        loadChildren: './views/icons/icons.module#IconsModule'
+        path: 'calculations',
+        loadChildren: './views/widgets/page-under-construction.module#PageUnderConstructionModule'
       },
       {
         path: 'documents',
