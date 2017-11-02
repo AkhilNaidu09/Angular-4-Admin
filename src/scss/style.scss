@@ -4,10 +4,12 @@
 
 .myTable /deep/ ng2-smart-table tr {
   border: 1px solid #d5d7d8 !important;
+  cursor: pointer !important;
 }
 
 .myTable /deep/ ng2-smart-table tr:hover {
   background: rgba(0, 0, 0, .05);
+  cursor: pointer !important;
 }
 
 .myTable /deep/ a.ng2-smart-page-link.page-link.page-link-prev,
